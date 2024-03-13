@@ -4,7 +4,7 @@ Welcome to TimerJs, a sleek and functional timer application built with the powe
 
 ## Features ✨
 
-- **Simple and intuitive UI:** Designed with Tailwind CSS for a modern and responsive interface.
+- **Simple and intuitive UI:** Designed with Tailwind CSS .
 - **Customizable timer:** Easily set up for your personal or professional needs.
 - **Lightweight:** Quick to load and easy to use.
 
