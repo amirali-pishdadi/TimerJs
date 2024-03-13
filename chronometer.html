@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronometer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-800 flex items-center justify-center h-screen bg-cover bg-center bg-fixed" style="background-image: url('background/2.jpg');">
+    <div class="text-center">
+        <div class="text-white text-8xl flex" id="chronometer">00:00:00</div>
+        <button class="flex items-center justify-center w-64 mx-auto mt-4 px-4 py-2 bg-transparent border text-white rounded" id="startButton">Start</button>
+        <button class="flex items-center justify-center w-64 mx-auto mt-4 px-4 py-2 bg-transparent border text-white rounded" id="stopButton">Stop</button>
+        
+        <button class="flex items-center justify-center w-64 mx-auto mt-4 px-4 py-2 bg-transparent border text-white rounded" id="resetButton">Reset</button>
+        <button class="mt-4 px-4 py-2 bg-transparent border text-white rounded" onclick="window.location.href='timer.html'">Go to Timer</button>
+    
+    </div>
+    <script src="chronometer.js"></script>
+</body>
+</html>
