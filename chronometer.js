@@ -1,11 +1,14 @@
+// Element References
 let chronometerDisplay = document.getElementById('chronometer');
 let startButton = document.getElementById('startButton');
 let stopButton = document.getElementById('stopButton');
 let resetButton = document.getElementById('resetButton');
 
+// Variables
 let chronometer;
 let startTime;
 
+// Start Chronometer Function
 function startChronometer() {
     startTime = Date.now();
     chronometer = setInterval(() => {
@@ -18,15 +21,18 @@ function startChronometer() {
     }, 1000);
 }
 
+// Stop Chronometer Function
 function stopChronometer() {
     clearInterval(chronometer);
 }
 
+// Reset Chronometer Function
 function resetChronometer() {
     clearInterval(chronometer);
     chronometerDisplay.textContent = '00:00:00';
 }
 
+// Event Listeners
 startButton.addEventListener('click', startChronometer);
 stopButton.addEventListener('click', stopChronometer);
 resetButton.addEventListener('click', resetChronometer);
